@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #333;
+  color: #fff;
+  font-size: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    border: 0;
+    width: 50px;
+
+    &:focus {
+      outline: 0;      
+    }
+  }
+}
